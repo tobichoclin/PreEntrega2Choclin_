@@ -1,0 +1,312 @@
+/* PALETA DE COLORES
+F7FBFC - D6E6F2 - B9D7EA - 769FCD - #636363
+*/
+/* FUENTES
+font-family: 'Sofia Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* body*/
+.bg_celeste{
+    background-color: #F7FBFC;
+}
+
+/* header */
+header{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 3px #636363;
+    background-color: #D6E6F2;
+    height: 75px;
+    margin-bottom: 50px;
+}
+header img{
+    height: 50px;
+    margin-left: 60px;
+}
+.navbar-mia{
+    margin-right: 30px;
+}
+.nav-link-mio{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    /* font-size: 25px; */
+    color: #636363;
+    text-decoration: none;
+    padding: 3px 20px;
+    border: solid 1px #B9D7EA;
+    border-radius: 5px;
+    background-color: #769FCD;
+    margin: 0px 20px;
+}
+.nav-link-mio:hover{
+    background-color: #636363;
+    color: #F7FBFC;
+}
+
+/* section */
+.centrado{
+    margin-bottom: 50px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section img{
+    width: 75px;
+    height: 75px;
+}
+
+/* main */
+#main_index{
+    height: 400px;
+    overflow: hidden;
+    margin: 0px 30px 50px 30px;
+}
+
+/* footer */
+footer{
+    /* display: flex; */
+    background-color: #D6E6F2;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: #636363;
+    /* justify-content:space-between; */
+    /* align-items:center; */
+    /* height: 50px; */
+}
+footer i{
+    font-size: 30px;
+}
+/* footer p{
+    margin-left: 15px;
+    font-size: 20px;
+}
+footer nav ul{
+    display: flex;
+    margin-right: 40px;
+    margin-left: 600px;
+    list-style: none;
+}
+footer nav a{
+    text-decoration: none;
+    padding: 0px 25px;
+} */
+footer a i{
+    color: #636363;
+    font-size: 40px;
+}
+footer a i:hover{
+    color: #F7FBFC;
+}
+
+.nav-item-mio{
+    margin-left: 50px;
+}
+
+/* ¿cómo funciona? */
+#main_cf{
+    margin-bottom: 50px;
+}
+#main_cf ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.sangria_izquierda{
+    margin-left: 250px;
+}
+.sangria_derecha{
+    margin-right: 250px;
+}
+#main_cf ul li ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+    font-family: 'Sofia Sans', sans-serif;
+    color: #636363;
+    font-size: 20px;
+}
+#main_cf ul li ul li{
+    padding: 10px 30px;
+}
+.numeros_gigantes{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #636363;
+    font-size: 130px;
+    font-weight: bold;
+}
+.izquierda{
+    margin-left: 150px;
+}
+.derecha{
+    margin-right: 150px;
+}
+.recuadro_celeste{
+    background-color: #D6E6F2;
+    border: solid 3px #B9D7EA;
+    border-radius: 5px;
+}
+
+.agrandar{
+    transition: scale 1s;
+}
+.agrandar:hover{
+    transform: scale(2);
+}
+
+/* equipos */
+#main_equipos{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+#main_equipos div{
+    margin-bottom: 50px;
+}
+#main_equipos div ul{
+    border: solid 3px #636363;
+    border-radius: 5px;
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    padding-top: 20px;
+}
+#main_equipos div ul li a{
+    list-style: none;
+    font-family: 'Sofia Sans', sans-serif;
+    color: #636363;
+    font-size: 15px;
+}
+#main_equipos section{
+    border: solid 3px #636363;
+    border-radius: 5px;
+    padding: 20px;
+}
+#main_equipos section article{
+    margin-right: 20px;
+}
+#main_equipos section article p{
+    padding: 15px 10px;
+}
+.cuadro_boton:hover{
+    background-color: #636363;
+    color: #F7FBFC;
+}
+#main_equipos section article a{
+    text-decoration: none;
+}
+.cuadro_comun{
+    font-family: 'Sofia Sans', sans-serif;
+    color: #636363;
+    border: solid 1px #636363;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.cuadro_boton{
+    border: solid 1px #769FCD;
+    border-radius: 5px;
+    background-color: #769FCD;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #636363;
+}
+.bw{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+/* quiero manejar! */
+#main_qm div{
+    display: flex;
+    align-items: center;
+}
+#main_qm div img{
+    height: 300px;
+    width: 300px;
+}
+#main_qm div p{
+    font-family: 'Sofia Sans', sans-serif;
+    color: #636363;
+    font-size: 20px;
+    line-height: 2;
+}
+#main_qm section{
+    display: flex;
+    align-items:start;
+    margin-bottom: 50px;
+}
+#main_qm section article{
+    border: solid 3px #B9D7EA;
+    border-radius: 5px;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D6E6F2;
+}
+#main_qm section article img{
+    height: 150px;
+    width: 200px;
+}
+#main_qm section article p{
+    font-family: 'Sofia Sans', sans-serif;
+    color: #636363;
+    font-size: 20px;
+    line-height: 2;
+    padding: 0px 20px;
+}
+#main_qm section article a{
+    text-decoration: none;
+}
+
+/* contacto */
+#main_contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 50px 50px 50px;
+}
+#main_contacto section{
+    background-color: #D6E6F2;
+    border: solid 3px #B9D7EA;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+}
+#main_contacto section p{
+    margin: 40px;
+    padding: 10px 30px;
+}
+#main_contacto section a{
+    text-decoration: none;
+}
+#titulo{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: #636363;
+    font-size: 40px;
+}
+#texto{
+    font-family: 'Sofia Sans', sans-serif;
+    line-height: 2;
+    color: #636363;
+    font-size: 20px;
+    padding: 0px 20px 0px 60px;
+}
+
+.bg1{background-color: lightblue;}
+.bg2{background-color: rgb(184, 230, 173);}
+.bg3{background-color: rgb(230, 173, 213);}
+.bg4{background-color: rgb(230, 199, 173);}
+.bg5{background-color: rgb(230, 173, 173);}
